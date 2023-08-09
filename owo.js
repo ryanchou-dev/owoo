@@ -10,7 +10,7 @@ async function do_owo() {
 		for (var i = 0; i < qq.length; i++) {
 			if (qq[i].children.length > 0) continue;
 			var txt = qq[i].innerHTML;
-			// test 123
+			// test123
 			// use regex to replace all instances of "r" with "w"
 			txt = txt.replace(/r/g, "w");
 			qq[i].innerHTML = txt;
